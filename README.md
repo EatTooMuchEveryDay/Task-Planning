@@ -2,7 +2,7 @@
 
 > Rui Xiao xrui0310@gmail.com
 
-This project is the fifth project assignment for COMP 550. The SAT-planner is implemented in `./Project5.cpp` file. The main function is in the `solve()`. For more analysis and description of approaches, please refer to **Project 5 Report.pdf**.
+This project is the fifth project assignment for COMP 550. For this project we are supposed to design and implement an SAT planner to solve the "Sokoban on Ice" problem. The SAT-planner is implemented in `./Project5.cpp` file. The main function is in the `solve()`. For more analysis and description of approaches, please refer to **Project 5 Report.pdf**.
 
 ## Compiling
 
@@ -30,7 +30,9 @@ Consider the following ”Sokoban on Ice” domain. A robot working in a grid wo
 
 An example domain is shown in on the right. The red block represent the robot, the green cell represent the goal, blue blocks represent movable boxes, and black blocks are obstacles. In this case, the robot could first move right, than down, then left, then up, to push the movable box upward. This will leave the movable box to the immediate right of the goal, and the robot right under the box. Then, the robot could move left, up, then right, to reach the green goal cell.
 
-<img src="README.assets/image-20211125204941916.png" alt="image-20211125204941916" style="zoom:50%;" />
+<div align="center">
+<img src="README.assets/image-20211125204941916.png" alt="image-20211125204941916" width="400"/>
+</div>
 
 <center style="font-size:14px">Figure 1. Scene 1</center> 
 
@@ -53,11 +55,15 @@ One trick to make encoding more efficient is to consider the boundary of the map
 
 First implement a planner that can solve the ”Sokoban on Ice” problem with no movable boxes. This reduces to the ”Ice Path” problem from Pokemon. Use your planner to solve the ice path problem in figure 7. Then, expand your implementation to handle movable boxes. Use your planner to solve the problem in figure 6 and figure 8 provided in the accompanied zip file. Visualize your outputs to confirm that your solution is correct. Does your algorithm have any guarantees regarding the optimality of the solutions found? Investigate how the runtime of the algorithm is affected by the number of grid cells, as well as the depth of plan.
 
-<img src="README.assets/image-20211125205037056.png" alt="image-20211125205037056" style="zoom:50%;" />
+<div align="center">
+<img src="README.assets/image-20211125205037056.png" alt="image-20211125205037056" width="400" />
+</div>
 
 <center style="font-size:14px">Figure 2. Ice Cave</center> 
 
-<img src="README.assets/image-20211125205047837.png" alt="image-20211125205047837" style="zoom:50%;" />
+<div align="center">
+<img src="README.assets/image-20211125205047837.png" alt="image-20211125205047837" width="400" />
+</div>
 
 <center style="font-size:14px">Figure 3. Scene 2</center> 
 
@@ -84,30 +90,27 @@ The following solutions are produced by our implemented SAT-planner.
 
 ##### Ice Cave
 
-<img src="Project 5 Report.assets/截屏2021-11-23 04.33.29.png" alt="截屏2021-11-23 04.33.29" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.31.png" alt="截屏2021-11-23 04.33.31" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.34.png" alt="截屏2021-11-23 04.33.34" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.36.png" alt="截屏2021-11-23 04.33.36" style="zoom:16%;" />
-<img src="README.assets/截屏2021-11-23 04.33.38.png" alt="截屏2021-11-23 04.33.38" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.40.png" alt="截屏2021-11-23 04.33.40" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.43.png" alt="截屏2021-11-23 04.33.43" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.45.png" alt="截屏2021-11-23 04.33.45" style="zoom:16%;" />
-<img src="Project 5 Report.assets/截屏2021-11-23 04.33.47.png" alt="截屏2021-11-23 04.33.47" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.50.png" alt="截屏2021-11-23 04.33.50" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.52.png" alt="截屏2021-11-23 04.33.52" style="zoom:16%;" />
+<div align="center">
+<img src="Project 5 Report.assets/IceCave.gif" width="400" />
+</div>
 
-<center style="font-size:14px">Figure 4. Ice Cave Solution</center> 
+<center style="font-size:14px">Figure 2. Ice Cave Solution</center> 
 
 ##### Scene 1
 
-<img src="README.assets/截屏2021-11-23 04.28.22.png" alt="截屏2021-11-23 04.28.22" style="zoom: 17%" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.26.png" alt="截屏2021-11-23 04.28.26" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.28.png" alt="截屏2021-11-23 04.28.28" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.31.png" alt="截屏2021-11-23 04.28.31" style="zoom:17%;" />
-<img src="Project 5 Report.assets/截屏2021-11-23 04.28.38.png" alt="截屏2021-11-23 04.28.38" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.41.png" alt="截屏2021-11-23 04.28.41" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.44.png" alt="截屏2021-11-23 04.28.44" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.47.png" alt="截屏2021-11-23 04.28.47" style="zoom:17%;" />
+<div align="center">
+<img src="Project 5 Report.assets/Scene1.gif" width="400" />
+</div>
 
-<center style="font-size:14px">Figure 5. Scene 1 Solution</center> 
+<center style="font-size:14px">Figure 3. Scene 1 Solution</center> 
 
 ##### Scene 2
 
-<img src="Project 5 Report.assets/截屏2021-11-23 04.37.22.png" alt="截屏2021-11-23 04.37.22" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.24.png" alt="截屏2021-11-23 04.37.24" style="zoom:18%;" /><img src="README.assets/截屏2021-11-23 04.37.26.png" alt="截屏2021-11-23 04.37.26" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.31.png" alt="截屏2021-11-23 04.37.31" style="zoom:18%;" />
+<div align="center">
+<img src="Project 5 Report.assets/Scene2.gif" width="400" />
+</div>
 
-<img src="README.assets/截屏2021-11-23 04.37.34.png" alt="截屏2021-11-23 04.37.34" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.36.png" alt="截屏2021-11-23 04.37.36" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.39.png" alt="截屏2021-11-23 04.37.39" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.42.png" alt="截屏2021-11-23 04.37.42" style="zoom:18%;" />
-
-<img src="Project 5 Report.assets/截屏2021-11-23 04.37.44.png" alt="截屏2021-11-23 04.37.44" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.46.png" alt="截屏2021-11-23 04.37.46" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.48.png" alt="截屏2021-11-23 04.37.48" style="zoom:18%;" /><img src="README.assets/截屏2021-11-23 04.37.51.png" alt="截屏2021-11-23 04.37.51" style="zoom:18%;" />
-
-<img src="README.assets/截屏2021-11-23 04.37.54.png" alt="截屏2021-11-23 04.37.54" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.56.png" alt="截屏2021-11-23 04.37.56" style="zoom:18%;" />
-
-<center style="font-size:14px">Figure 6. Scene 2 Solution</center> 
+<center style="font-size:14px">Figure 4. Scene 2 Solution</center> 
 
 ## Visualization of Solutions
 

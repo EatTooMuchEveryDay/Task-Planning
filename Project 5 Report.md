@@ -93,28 +93,25 @@ The experiment is conducted on a macbook based on *macOS 12.0.1*. The following 
 
 ##### Ice Cave
 
-<img src="Project 5 Report.assets/截屏2021-11-23 04.33.29.png" alt="截屏2021-11-23 04.33.29" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.31.png" alt="截屏2021-11-23 04.33.31" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.34.png" alt="截屏2021-11-23 04.33.34" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.36.png" alt="截屏2021-11-23 04.33.36" style="zoom:16%;" />
-<img src="Project 5 Report.assets/截屏2021-11-23 04.33.38.png" alt="截屏2021-11-23 04.33.38" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.40.png" alt="截屏2021-11-23 04.33.40" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.43.png" alt="截屏2021-11-23 04.33.43" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.45.png" alt="截屏2021-11-23 04.33.45" style="zoom:16%;" />
-<img src="Project 5 Report.assets/截屏2021-11-23 04.33.47.png" alt="截屏2021-11-23 04.33.47" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.50.png" alt="截屏2021-11-23 04.33.50" style="zoom:16%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.33.52.png" alt="截屏2021-11-23 04.33.52" style="zoom:16%;" />
+<div align="center">
+<img src="Project 5 Report.assets/IceCave.gif" width="400" />
+</div>
 
 <center style="font-size:14px">Figure 2. Ice Cave Solution</center> 
 
 ##### Scene 1
 
-<img src="Project 5 Report.assets/截屏2021-11-23 04.28.22.png" alt="截屏2021-11-23 04.28.22" style="zoom: 17%" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.26.png" alt="截屏2021-11-23 04.28.26" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.28.png" alt="截屏2021-11-23 04.28.28" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.31.png" alt="截屏2021-11-23 04.28.31" style="zoom:17%;" />
-<img src="Project 5 Report.assets/截屏2021-11-23 04.28.38.png" alt="截屏2021-11-23 04.28.38" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.41.png" alt="截屏2021-11-23 04.28.41" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.44.png" alt="截屏2021-11-23 04.28.44" style="zoom:17%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.28.47.png" alt="截屏2021-11-23 04.28.47" style="zoom:17%;" />
+<div align="center">
+<img src="Project 5 Report.assets/Scene1.gif" width="400" />
+</div>
 
 <center style="font-size:14px">Figure 3. Scene 1 Solution</center> 
 
 ##### Scene 2
 
-<img src="Project 5 Report.assets/截屏2021-11-23 04.37.22.png" alt="截屏2021-11-23 04.37.22" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.24.png" alt="截屏2021-11-23 04.37.24" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.26.png" alt="截屏2021-11-23 04.37.26" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.31.png" alt="截屏2021-11-23 04.37.31" style="zoom:18%;" />
-
-<img src="Project 5 Report.assets/截屏2021-11-23 04.37.34.png" alt="截屏2021-11-23 04.37.34" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.36.png" alt="截屏2021-11-23 04.37.36" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.39.png" alt="截屏2021-11-23 04.37.39" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.42.png" alt="截屏2021-11-23 04.37.42" style="zoom:18%;" />
-
-<img src="Project 5 Report.assets/截屏2021-11-23 04.37.44.png" alt="截屏2021-11-23 04.37.44" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.46.png" alt="截屏2021-11-23 04.37.46" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.48.png" alt="截屏2021-11-23 04.37.48" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.51.png" alt="截屏2021-11-23 04.37.51" style="zoom:18%;" />
-
-<img src="Project 5 Report.assets/截屏2021-11-23 04.37.54.png" alt="截屏2021-11-23 04.37.54" style="zoom:18%;" /><img src="Project 5 Report.assets/截屏2021-11-23 04.37.56.png" alt="截屏2021-11-23 04.37.56" style="zoom:18%;" />
+<div align="center">
+<img src="Project 5 Report.assets/Scene2.gif" width="400" />
+</div>
 
 <center style="font-size:14px">Figure 4. Scene 2 Solution</center> 
 
