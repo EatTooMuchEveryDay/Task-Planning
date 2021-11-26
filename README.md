@@ -6,7 +6,7 @@ This project is the fifth project assignment for COMP 550. For this project we a
 
 ## Compiling
 
-If you have installed the OpenCV 3.4, then you can simply compile the project by using `make` command in the root directory. The process of installing OpenCV on the given virtual machine would described later in this document. Considering the process of installing OpenCV is not an easy work, you could also comment the definition of `OPENCV` in `./src/Project5.cpp` and remove the including of OpenCV in `./Makefile` to disable the OpenCV. Then it should be able to be easily complied. The only difference is there would not be path images shown.
+If you have installed the OpenCV 3.4 and [Z3](https://github.com/Z3Prover/z3), then you can simply compile the project by using `make` command in the root directory. The process of installing OpenCV on the given virtual machine would described later in this document. Considering the process of installing OpenCV is not an easy work, you could also comment the definition of `OPENCV` in `./src/Project5.cpp` and remove the including of OpenCV in `./Makefile` to disable the OpenCV. Then it should be able to be easily complied. The only difference is there would not be path images shown.
 
 ```c++
 #define OPENCV
